@@ -1,0 +1,68 @@
+.search-bar{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.video, .video-2{
+  display: inline-block;
+  width: 300px;
+}
+
+.video-2{
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+p{
+  font-family: roboto, arial;
+  margin: 0px;
+}
+
+.video-div{
+  display: inline-block;
+  margin-bottom: 12px;
+  width: 300px;
+  height: 180px;
+}
+
+.info-div{
+  display: inline-block;
+}
+
+.thumbnail{
+  height: 180px;
+  object-fit: fill;
+  width: 100%; 
+}
+
+.profile-div{
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;;
+}
+
+.profile{
+  border-radius: 50px;
+  width: 80%;
+}
+
+.text-div{
+  display: inline-block;
+  width: 210px;
+}
+
+.video-title{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: top;
+  margin-bottom: 12px;
+}
+
+.video-author, .video-stats{
+  color: rgb(96, 96, 96);
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+

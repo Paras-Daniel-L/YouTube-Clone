@@ -1,0 +1,76 @@
+.a-text{
+  font-family: tahoma;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.b-text{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.bsales-text{
+  font-family: arial;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 4px;
+  color: rgb(222, 29, 29);
+}
+
+.chtml-text{
+  font-family: verdana;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.cbeginner-text{
+  font-family: verdana;
+  font-size: 13px;
+  color: gray;
+  margin-top: 4px;
+}
+
+.cbody-text{
+  font-family: verdana;
+  font-size: 13px;
+  margin-top: 4px;
+  width: 250px;
+  line-height: 17px;
+}
+
+.cbutton-text{
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  padding: 9px 15px;
+  color: white;
+}
+
+.dshop-text{
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dsee-text{
+  font-family: arial;
+  font-size: 12px;
+  text-align: center;
+}
+
+.dlearn-text{
+  font-family: arial;
+  font-size: 12px;
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.dlearn-text:hover{
+  text-decoration: underline;
+}

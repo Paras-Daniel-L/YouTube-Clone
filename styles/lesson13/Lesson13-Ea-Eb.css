@@ -1,0 +1,57 @@
+.exer-a{
+  display: flex;
+  flex: 1;
+  height: 50px;
+}
+
+.left-a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightpink;
+  width: 100px;
+}
+
+.para-a{
+  color: white;
+  background-color: black;
+}
+
+.right-a{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.exer-b{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin: 20px 0px;
+}
+
+.left-b{
+  background-color: lightpink;
+  width: 100px;
+}
+
+
+.right-b{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row2-left{
+  color: white;
+  background-color: black;
+}
+
+.row2-right{
+  color: white;
+  background-color: black;
+}

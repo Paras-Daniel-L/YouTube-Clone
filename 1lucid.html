@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lucide Icons Example</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    
+    .custom-icon {
+      color: #3b82f6; /* Blue */
+      width: 32px;
+      height: 32px;
+    }
+    
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: #eee;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Basic Icons</h3>
+  <i data-lucide="home"></i>
+  <i data-lucide="settings"></i>
+  
+  <h3>Styled Icons</h3>
+  <i data-lucide="heart" class="custom-icon"></i>
+
+  <h3>Button with Icon</h3>
+  <button class="btn">
+    <i data-lucide="shopping-cart"></i>
+    Checkout
+  </button>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+</body>
+</html>

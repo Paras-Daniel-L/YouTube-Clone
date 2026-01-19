@@ -1,0 +1,48 @@
+
+
+.title-text{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  width: 280px;
+  margin-bottom: 6px;
+  line-height: 24px;
+}
+
+p{
+  font-family: Arial;
+  font-size: 14px;
+  color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.views-text{
+  margin-bottom: 15px;
+}
+
+.brown-text{
+  margin-bottom: 15px;
+}
+
+.body-text{
+  width: 280px;
+  margin-bottom: 100px;
+  line-height: 20px;
+}
+
+.apple-text{
+  background-color: rgb(227, 65, 64);
+  padding: 18px 0px;
+  color: white;
+  text-align: center;
+}
+
+.shop-text:hover{
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,28 @@
+.search-bar{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.image{
+  height: 180px;
+  object-fit: cover;
+  width: 300px; 
+}
+
+.title-text{
+  font-family: arial;
+  font-weight: bold;
+}
+
+.vid-div-first{
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.vid-div-second{
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}

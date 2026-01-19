@@ -1,0 +1,146 @@
+div{
+  font-family: arial;
+}
+
+.container{
+  padding: 10px 15px;
+  width: 400px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.14);
+}
+
+.inbox-label{
+  margin-bottom: 20px;
+  color: gray;
+  font-size: 14px;
+}
+
+.email{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sender-picture-container{
+  margin-right: 10px;
+}
+
+.sender-picture{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+}
+
+.email-content{
+  flex: 1;
+}
+
+.email-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.sender-name{
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.send-time{
+  color: gray;
+  font-size: 13px;
+}
+
+.subject{
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.message{
+  color: gray;
+  font-size: 16px;
+}
+
+.tweet{
+  padding: 10px 15px;
+  width: 420px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.14);
+
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-picture-column{
+  margin-right: 10px;
+}
+
+.profile-picture{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.tweet-column{
+  flex: 1;
+}
+
+.tweet-header{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.tweet-author{
+  font-weight: bold;
+  margin-right: 5px;
+
+}
+
+.tweet-author-handle{
+  color: gray;
+}
+
+.tweet-content{
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.video-preview{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.thumbnail-column{
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.video-info-column{
+  flex: 1;
+}
+
+.video-website {
+  color: rgb(111, 111, 111);
+  margin-bottom: 3px;
+}
+
+.video-title {
+  line-height: 22px;
+}

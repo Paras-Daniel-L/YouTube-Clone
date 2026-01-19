@@ -1,0 +1,127 @@
+p{
+  margin: 0px;
+  font-family: arial;
+  color: rgb(148, 148, 148);
+}
+
+.header{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 50px;
+  left: 0;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+  border-bottom-width: 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.userbox{
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userprofile{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+}
+
+.username{
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+}
+
+.right-section{
+  display: flex;
+  column-gap: 7px;
+  align-items: center;
+}
+
+.add-button{
+  color: white;
+  background-color: rgb(59, 114, 219);
+  border: none;
+  border-radius: 5px;
+  padding: 7px 13px;
+  font-weight: bold;
+}
+
+.message-button{
+  background-color: rgb(228, 230, 235);
+  border: none;
+  border-radius: 5px;
+  padding: 7px 13px;
+  font-weight: bold;
+}
+
+.discord-profile{
+  background-color: rgb(32, 34, 38);
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 75px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.discord-channel{
+  background-color: rgb(48, 48, 48);
+  position: fixed;
+  top: 50px;
+  bottom: 0;
+  left: 75px;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-top: 15px;
+}
+
+.info{
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.add-channel{
+  font-size: 30px;
+  color: rgb(148, 148, 148);
+}
+
+.channels{
+  line-height: 35px;
+  margin-left: 20px;
+}

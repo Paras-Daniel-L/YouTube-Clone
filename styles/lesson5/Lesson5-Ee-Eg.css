@@ -1,0 +1,92 @@
+p{
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center
+}
+
+.enew-text{
+  font-size: 15px;
+  font-weight: bold;
+  color: orange;
+  margin-bottom: 8px;
+}
+
+.emac-text{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.esuper-text{
+  font-size: 42px;
+  font-weight: bolder;
+  margin-bottom: 12px;
+}
+
+.efrom-text{
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.ebutton-text{
+  background-color: rgb(39, 150, 255);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 8px 13px;
+  text-align: center;
+}
+
+.first-text{
+  font-size: 25px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.usd-text{
+  font-size: 13px;
+  color: gray;
+}
+
+.second-text{
+  color: rgb(121, 212, 121);
+  font-size: 13px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.third-text{
+  color: gray;
+  font-size: 13px;
+  text-align: left;
+  margin-top: 6px;
+}
+
+.percent-text{
+  color: red;
+}
+
+.free-text{
+  text-align: left;
+  font-weight: bold;
+  margin-top: 20px;
+  line-height: 25px;
+  width: 500px;
+}
+
+.free-code-at{
+  color: gray;
+  font-weight: normal;;
+}
+
+.message-text{
+  text-align: left;
+  font-weight: normal;
+}
+.here-text{
+  line-height: 0px;
+}
+.chip-text{
+  color: rgb(29, 146, 220);
+}

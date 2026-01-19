@@ -1,0 +1,160 @@
+p{
+  margin: 0px;
+  font-family: arial;
+}
+
+body{
+  margin-top: 0px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.menu-button{
+  height: 24px;
+  margin: 0px 23px 0px 16px;
+}
+
+.youtube-logo{
+  height: 20px;
+}
+
+.middle-section{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 30px;
+  max-width: 500px;
+
+  display: flex;
+  align-items: center;
+}
+
+.search-bar{
+  flex: 1;
+  width: 0;
+  height: 37px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;;
+}
+
+.search-bar::placeholder{
+  font-family: arial;
+  font-size: 16px;
+}
+
+.search-button{
+  width: 60px;
+  height: 41px;
+  background-color: (240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -1px;
+  margin-right: 10px;
+  box-shadow: inset 1, 2, 3, rgba(0, 0, 0, 0.05);
+}
+
+.search{
+  height: 25px;
+}
+
+.voice-button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.voice{
+  height: 24px;
+}
+
+.right-section{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20 px;
+  flex-shrink: 0;
+}
+
+.create-button{
+  height: 24px;
+}
+
+.youtube-apps{
+    height: 24px;
+}
+
+.notification-button{
+    height: 24px;
+}
+
+.profile-button{
+    height: 32px;
+    border-radius: 20px;
+}
+
+.format{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+.yt-thumbnail{
+  margin-bottom: 10px;
+}
+
+.thumbnail{
+  width: 100%;
+}
+
+.yt-information{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile{
+  width: 40px;
+  border-radius: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.title{
+  font: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.author, .stats{
+  font-size: 12px;
+  color: lightgray;
+  line-height: 15px;
+}
+
+
+
+
+

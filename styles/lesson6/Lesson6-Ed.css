@@ -1,0 +1,23 @@
+p{
+  text-align: center;
+  font-family: montserrat;
+}
+
+.model-text{
+  font-size: 40px;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 15px;
+}
+
+.order-text{
+  font-size: 18px;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.delivery-text{
+  text-decoration: underline;
+}

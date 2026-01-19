@@ -1,0 +1,36 @@
+body{
+  padding-bottom: 3000px;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+.header{
+  background-color: lightgray;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+}
+
+.side-bar{
+  background-color: lightslategrey;
+  position: fixed;
+  color: white;
+  left: 0;
+  bottom: 0;
+  top: 50px;
+  width: 70px;
+}
+
+.div1{
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+}
+
+.div2{
+  background-color: lightpink;
+  height: 200px;
+  width: 200px;
+}

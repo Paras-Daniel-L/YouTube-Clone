@@ -1,0 +1,30 @@
+h3{
+  font-weight: thick;
+  color: rgb(0, 118, 0);
+}
+
+.add-to-cart{
+  background-color: rgb(255, 216, 20);
+  border-color: rgb(255, 216, 20); 
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 200px;
+  color: black;
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.buy-now{
+  background-color: rgb(255, 164, 28);
+  border-color: rgb(255, 164, 28); 
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 200px;
+  color: black;
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+  margin-right: 8px;
+}
